@@ -1,3 +1,4 @@
+
 // Código del cuadrado
 console.group("Cuadrado");
 // const ladoCuadrado = 5;
@@ -85,3 +86,21 @@ function areaCirculo(radio){
 // const areaCirculo = (radioCirculo * radioCirculo) * PI;
 // console.log("El área del círculo es: " + areaCirculo + "cm^2")
 console.groupEnd();
+
+
+// Aquí interactuamos con el HTML
+
+function calcularPerimetroCuadrado(){
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value; 
+
+    const perimetro = perimetroCuadrado(value);
+    alert(perimetro);
+}
+function calcularAreaCuadrado(){
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+
+    const area = areaCuadrado(value);
+    alert(area);
+}
