@@ -104,3 +104,17 @@ function calcularAreaCuadrado(){
     const area = areaCuadrado(value);
     alert(area);
 }
+
+function alturaTrianguloIsosceles(trianguloGrandeLadoA, trianguloGrandeladoB, trianguloGrandeLadoBase){
+    if (ladoA != ladoB){
+        console.erroe("Los lados a y b no so iguales");
+    } else {
+        let trianguloPequenoLadoA; // PENDIENTE
+        const trianguloPequenoLadoB = trianguloGrandeLadoBase / 2;
+        const trianguloPequenoLadoBase = trianguloPequenoLadoBase;
+
+        
+        const trianguloGrandeAltura = trianguloPequenoLadoA;
+        return trianguloGrandeAltura;
+    }
+}
