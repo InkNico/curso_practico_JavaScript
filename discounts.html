@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porcentajes y descuentos | Curso JavaScript Platzi</title>
+    <title>Percentages & discounts | Platzi JavaScript course</title>
 </head>
 <body>
-    <h1>
-        Porcentajes y descuentos
-    </h1>
+    <header>
+        <h1>
+            Percentages & Discounts
+        </h1>
+        <p>This is the JavaScript course second workshop.</p>
+    </header>
+
+    <section>
+        <h2>Estimate the final price to pay for the products after the discount is applied</h2>
+
+        <form>
+            <label for="InputPrice">Insert the product's price</label>
+            <input id="InputPrice" type="number" />
+
+            <label for="InputDiscount">Insert the product's discount</label>
+            <input id="InputDiscount" type="number" />
+
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                Estimate price with discount applied
+            </button>
+
+            <p id="Result-price"></p>
+        </form>
+    </section>
     <script src="./discounts.js"></script>
 </body>
 </html>
